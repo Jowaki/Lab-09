@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<?php include 'myfirstprogram.php';?>
+<html>
+<head>
+	<title>Web Store</title>
+	<script type="text/javascript" src="formChecker.js"></script>
+</head>
+
+<body>
+	<form onsubmit="return formCheckers()" action="customerBackend.php" method="post">
+		<br>Username: <input type="text" id="username" name="username"></br>
+		<br>Password: <input type="password" id="password" name="password"></br>
+		<p>
+			Items on Sale:<br>
+			<br>Cookies	$5 each <input type="number" id="cookies" name="cookies"></br>
+			<br>Chocolates	$2 each <input type="number" id="chocolates" name="chocolates"></br>
+			<br>Cake	$10 each <input type="number" id="cake" name="cake"></br>
+		</p>
+		<br>Shipping Method</br>
+		<input type="radio" name="shipping" value="zero" id="zero" name="zero">Free! - 7 day shipping<br>
+		<input type="radio" name="shipping" value="five" id="five" name="five">$5 - 3 day shipping<br>
+		<input type="radio" name="shipping" value="fifty" id="fifty" name="fifty">$50 - 1 day shipping<br>
+		<br></br>
+		</p>
+
+		<button type="submit" value="Submit">Submit</button> 
+		<button type="reset" value="Reset">Reset</button><br>
+	</form>
+</body>
+<html>
+
+
+	

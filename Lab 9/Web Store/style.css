@@ -1,0 +1,19 @@
+body{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  backface-visibility: hidden;
+  box-sizing: border-box;
+}
+
+h1{
+	font-size: 50;
+	font-style: italics;
+	font-family: cursive;
+	color: Red;
+}
+
+tr{
+	background-color:green;
+	color: white;
+}
